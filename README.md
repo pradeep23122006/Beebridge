@@ -58,70 +58,7 @@ Bee Bridge is a full-stack web application that serves as a marketplace for hone
 
 ---
 
-## 🚀 Getting Started
 
-### Prerequisites
-- Node.js 22.x or higher
-- npm or yarn package manager
-- Supabase account ([Sign up here](https://supabase.com))
-- Google Cloud Console project (for OAuth)
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/pradeep23122006/Beebridge.git
-   cd Beebridge
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Set up environment variables**
-   
-   Copy `.env.example` to `.env`:
-   ```bash
-   cp .env.example .env
-   ```
-   
-   Fill in your credentials in `.env`:
-   ```env
-   # Supabase Configuration
-   VITE_SUPABASE_URL=your_supabase_project_url
-   VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-   
-   # Google OAuth
-   VITE_GOOGLE_CLIENT_ID=your_google_client_id
-   GOOGLE_CLIENT_SECRET=your_google_client_secret
-   ```
-
-4. **Set up Supabase Database**
-   
-   Create the following tables in your Supabase project:
-   - `users` - User profiles
-   - `products` - Product listings
-   - `orders` - Customer orders
-   - `sellers` - Seller information
-   
-   (Refer to `backend/` directory for schema details)
-
-5. **Run the development server**
-   ```bash
-   npm run dev
-   ```
-   
-   The app will be available at `http://localhost:5173`
-
-### Build for Production
-
-```bash
-npm run build
-npm run preview
-```
-
----
 
 ## 📁 Project Structure
 
@@ -177,9 +114,9 @@ honybee-main/
 
 ## 📸 Screenshots
 
-*Coming soon - Add screenshots of your application here*
 
----
+
+
 
 ## 🚧 Future Enhancements
 
